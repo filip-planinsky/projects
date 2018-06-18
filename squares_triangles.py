@@ -6,7 +6,7 @@ def draw_square(turtle_instance, square_side):
     """
     draw square
     """
-    turtle_instance.color("yellow")
+    turtle_instance.color("green")
 
     for i in range(4):
         turtle_instance.fd(square_side)
@@ -131,7 +131,7 @@ if __name__ == '__main__':
         else:
             break
 
-    if square_size > 1 and alpha > 1 and beta > 1 and recursion_level > 1:
+    if square_size > 1 and alpha > 1 and beta > 1 and recursion_level > 0:
         # initialising turtle and window
         window = turtle.Screen()
         window.setup(width=800, height=800)
